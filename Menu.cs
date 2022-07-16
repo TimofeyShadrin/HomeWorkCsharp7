@@ -23,7 +23,7 @@ namespace Seminar7
                     + "\n\n"
                     + "\t Выход из программы"
             );
-            Console.WriteLine("\n\n");
+            Console.WriteLine();
         }
 
         private static void HorizontalLine(int left, int top, int length)

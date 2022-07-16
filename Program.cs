@@ -17,7 +17,7 @@
                 if (answer == 0)
                 {
                     Console.Clear();
-                    Menu.Box(2, 4, 100, 4);
+                    Menu.Box(3, 4, 100, 4);
                     Menu.Intro();
                     choise = Console.ReadKey();
                     if (choise.Key == ConsoleKey.DownArrow)
@@ -34,7 +34,7 @@
                 else if (answer == 1)
                 {
                     Console.Clear();
-                    Menu.Box(2, 8, 100, 4);
+                    Menu.Box(3, 8, 100, 4);
                     Menu.Intro();
                     choise = Console.ReadKey();
                     if (choise.Key == ConsoleKey.DownArrow)
@@ -53,7 +53,7 @@
                 else if (answer == 2)
                 {
                     Console.Clear();
-                    Menu.Box(2, 12, 100, 4);
+                    Menu.Box(3, 12, 100, 4);
                     Menu.Intro();
                     choise = Console.ReadKey();
                     if (choise.Key == ConsoleKey.DownArrow)
@@ -72,7 +72,7 @@
                 else if (answer == 3)
                 {
                     Console.Clear();
-                    Menu.Box(2, 16, 100, 4);
+                    Menu.Box(3, 16, 100, 4);
                     Menu.Intro();
                     choise = Console.ReadKey();
                     if (choise.Key == ConsoleKey.UpArrow)
