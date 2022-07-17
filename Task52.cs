@@ -14,7 +14,7 @@ namespace Seminar7
                     PrintArray.PrintCurrentArray(randomIntArray);
                     if (
                         randomIntArray.GetLength(0) > 0 && randomIntArray.GetLength(1) > 0
-                        || randomIntArray != null
+                        && randomIntArray != null
                     )
                     {
                         Methods.PrintList(Decisions.ArithmeticMeanInColumn(randomIntArray));
