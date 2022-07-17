@@ -14,7 +14,7 @@ namespace Seminar7
                     PrintArray.PrintCurrentArray(randomDoubleArray);
                     if (
                         randomDoubleArray.GetLength(0) > 0 && randomDoubleArray.GetLength(1) > 0
-                        || randomDoubleArray != null
+                        && randomDoubleArray != null
                     )
                     {
                         Console.Write(
